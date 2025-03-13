@@ -75,4 +75,4 @@ georchestra.gateway.services:
   import.target: http://${IMPORT_HOST}:80/
   mapstore.target: http://${MAPSTORE_HOST}:8080/mapstore/
   ogc-api-records.target: http://${OGC_API_RECORDS_HOST}:8080/ogc-api-records/
-  data-api.target: http://${DATA_API_HOST}:8080/data/
+  data-api.target: http://${DATA_API_HOST:data-api}:8080/data/
